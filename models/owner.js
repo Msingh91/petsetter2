@@ -21,7 +21,7 @@ var owner = sequelize.define("owner", {
     type: DataTypes.STRING
   },
    size: {
-    type: DataTypes.INTEGER
+    type: DataTypes.STRING
   },
    distance: {
     type: DataTypes.INTEGER
