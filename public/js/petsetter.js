@@ -23,7 +23,7 @@ $("#owner-submit").on("click", function(event) {
   $.post("/api/owners", newOwner)
     // On success, run the following code
     .done(function() {
-
+    console.log("done")
       // var row = $("<div>");
       // row.addClass("chirp");
 
@@ -66,7 +66,7 @@ $("#setter-submit").on("click", function(event) {
   $.post("/api/setters", newSetter)
     // On success, run the following code
     .done(function() {
-
+      console.log("done")
       // var row = $("<div>");
       // row.addClass("chirp");
 

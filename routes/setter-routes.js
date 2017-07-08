@@ -15,7 +15,7 @@ module.exports = function(app) {
     console.log("Chirp Data:");
     console.log(req.body);
 
-    setters.create({
+    db.setter.create({
     first_name: req.body.first_name,
     last_name: req.body.last_name,
     email: req.body.email,

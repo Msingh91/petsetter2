@@ -3,8 +3,8 @@ var db = require("../models");
 module.exports = function(app) {
   app.get("/api/owners", function(req, res) {
     // 1. Add a join to include all of each Author's Posts
-    db.owners.findAll({}).then(function(dbSetter) {
-      res.json(dbSetter);
+    db.owner.findAll({}).then(function(dbOwner) {
+      res.json(dbOwner);
     });
   });
 
@@ -15,7 +15,7 @@ module.exports = function(app) {
     console.log("Chirp Data:");
     console.log(req.body);
 
-    owners.create({
+    db.owner.create({
     first_name: req.body.first_name,
     last_name: req.body.last_name,
     email: req.body.email,
