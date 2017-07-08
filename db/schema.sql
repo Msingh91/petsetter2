@@ -1,0 +1,30 @@
+DROP DATABASE IF EXISTS `petsetter_db`;
+CREATE DATABASE `petsetter_db`;
+
+USE petsetter_db;
+
+CREATE TABLE owners
+(
+id int AUTO_INCREMENT NOT NULL,
+name VARCHAR(255) NOT NULL,
+email VARCHAR(255) NOT NULL,
+address VARCHAR(255) NOT NULL,
+service VARCHAR(255) NOT NULL,
+pet VARCHAR(255) NOT NULL,
+size int NOT NULL,
+distance int NOT NULL,
+date_created TIMESTAMP,
+PRIMARY KEY (id)
+);
+
+CREATE TABLE setters
+(
+id int AUTO_INCREMENT NOT NULL,
+name VARCHAR(255) NOT NULL,
+email VARCHAR(255) NOT NULL,
+address VARCHAR(255) NOT NULL,
+experience int NOT NULL,
+type VARCHAR(255) NOT NULL,
+date_created TIMESTAMP,
+PRIMARY KEY (id)
+);

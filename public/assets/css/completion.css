@@ -1,0 +1,83 @@
+.container{
+	margin-top: 0px;
+}
+
+.navbar{
+    margin-bottom: 0;
+    width: 100%;
+	/*background-color: #222; */
+}
+
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+
+}
+
+.setter{
+	background: url(../img/lightblue_logowallpaper.jpg);
+	margin-top: 60px;
+	padding-bottom: 15px;
+	height: 900px;
+}
+
+.panel-body{
+ text-align: center; 
+ }
+
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #fff;
+}
+
+.panel-default>.panel-heading {
+    color: #333;
+    background-color: #6ca3ca;
+    border-color: #fff;
+}
+
+.img-responsive.logo {
+    height: auto;
+    width: 100px;
+    vertical-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h4{
+	font-size: 14px;
+	color: #6ca3ca;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+h3{
+	font-size: 24px;
+	color: #bc2f40;
+	margin-top: 35px;
+	font-weight: 700;
+	font-family: 'Lobster', cursive;
+}
+
+a {
+	color: #fff;
+}
+
+.allsett-btn{
+	width: 170px;
+	height: 50px;
+	background: #273747;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 10px;
+	border-radius: 4px;
+	border:0;
+    text-align: center;
+	margin-top: 10px;
+    margin-bottom: 5px;
+	font-weight: 600;
+}

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>PetSetter2.0</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+	<link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto:300" rel="stylesheet">
+    <script src="https://use.fontawesome.com/13eb2654af.js"></script>
+
+</head>
+
+<body>
+
+	<!-- ====================================================
+	header section -->
+	<header class="top-header" style="background: rgb(24, 23, 29);">
+		<div class="container">
+			<div class="row">
+				<!-- nav starts here -->
+				<div class="col-md-12">
+                    <nav class="navbar navbar-default navbar-fixed-top">
+                      <div class="container">
+						    <div class="navbar-header">
+						      <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">-->
+						        <span class="sr-only">Toggle navigation</span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						      </button>
+						      <a href="/"><img src="/assets/img/hor_logo.png" alt="" class="img-responsive logo"></a>
+						    </div>
+						    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						      <ul class="nav navbar-nav navbar-right">
+						        <li><a href="/signin">Sign In</a></li>
+						        <li><a href="/signup">Sign Up</a></li>
+						      </ul>
+						    </div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header><!-- end of header section -->
+
+    <!-- Page Content -->
+	<section class="banner" id="home">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-6">
+                    <!--<a href="index.html"><img src="img/logo.png" alt="" class="img-responsive logo"></a>-->
+					<h3>welcome to petsetter!</h3>
+					<p>Etiam ullamcorper et turpis eget hendrerit. Praesent varius risus mi, at elementum magna ultricies accumsan. Cras venenatis lacus sed dolor placerat tempus. Morbi blandit at neque ut imperdiet.Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
+						<a href="/setter"><button class="download-btn">start petsetting</button></a>
+            				<a href="/owner"><button class="features-btn">find your setter</button></a>
+				</div>
+			</div>
+		</div>
+	</section>
+        <!-- /.row -->
+
+    <section id="owner" class="signup">
+            <div class="container">
+               <div class="col-lg-12">
+
+            <div class="col-lg-12">
+                <div class="panel panel-default">
+                     <div class="panel-heading heading-o">
+                <h3 class="panel-title">search for setters</h3>
+                     </div>
+
+    <div class="panel-body">
+
+	<div class="row">
+	  <form role="form">
+        <div class="form-group col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <label for="Address"><h4>City/Zip Code:</h4></label>
+            <input type="text" class="form-control" id="address" placeholder="">
+        </div>
+        <div class="form-group col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <label for="Miles"><h4>Distance From You(in Miles):</h4></label>
+                  <input class="form-control" id="years-input" type="number">
+        </div>
+        <div class="form-group col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h4>Service Type:</h4>
+                  <div class="btn-group btn-group-justified" role="Service" data-toggle="buttons">
+                          <label class="btn btn-default">
+                              <input name="serviceType" type="radio" value="Boarding">Boarding
+                          </label>
+                          <label class="btn btn-default">
+                              <input name="serviceType" type="radio" value="House Sitting">House Sitting
+                          </label>
+                          <label class="btn btn-default">
+                              <input name="serviceType" type="radio" value="Drop-In Visits">Drop-In Visits
+                          </label>
+                          <label class="btn btn-default">
+                              <input name="serviceType" type="radio" value="Day Care">Day Care
+                          </label>
+                  </div>
+                <h4>Pet Type:</h4>
+                  <div class="btn-group btn-group-justified" role="Type" data-toggle="buttons">
+                      <label class="btn btn-default">
+                          <input name="petType" type="radio" value="Dog">Dog
+                      </label>
+                      <label class="btn btn-default">
+                          <input name="petType" type="radio" value="Cat">Cat
+                      </label>
+                      <label class="btn btn-default">
+                          <input name="petType" type="radio" value="Reptile">Reptile
+                      </label>
+                      <label class="btn btn-default">
+                          <input name="petType" type="radio" value="Fish">Fish
+                      </label>
+                      <label class="btn btn-default">
+                          <input name="petType" type="radio" value="Bird">Bird
+                      </label>
+                  </div>
+
+
+                <h4>Pet Size(in pounds):</h4>
+                  <div class="btn-group btn-group-justified" role="Size" data-toggle="buttons">
+                      <label class="btn btn-default">
+                          <input name="petType" type="radio" value="0-15lbs">0-15
+                      </label>
+                      <label class="btn btn-default">
+                          <input name="petType" type="radio" value="16-40lbs">16-40
+                      </label>
+                      <label class="btn btn-default">
+                          <input name="petType" type="radio" value="41-70lbs">41-70
+                      </label>
+                      <label class="btn btn-default">
+                          <input name="petType" type="radio" value="71-101lbs">71-101
+                      </label>
+                      <label class="btn btn-default">
+                          <input name="petType" type="radio" value="101lbs+">101+
+                      </label>
+                  </div>
+                </div>
+              </form>
+		<div>
+		<a href="/map"><button class="features-btn">search setters</button></a>
+		</div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- details section -->
+	<section class="details" id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5 col-xs-6 col-sm-6">
+					<img class="img-responsive details-phone" src="/assets/img/verticle-phone.png" alt="">
+				</div>
+				<div class="col-md-6 col-md-offset-1 col-xs-6 col-sm-6">
+					<h3>easy access on any device</h3>
+					<h2>On the go, we're ready for you!</h2>
+					<img class="img-responsive" src="/assets/img/daag.png" alt="">
+					<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. </p>
+					<ul>
+						<li><i class="fa fa-trophy"></i>Award winning service</li>
+						<li><i class="fa fa-mobile"></i>Fully responsive anywhere</li>
+						<li><i class="fa fa-tachometer"></i>Tons of features and easy to use</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+</section>
+    <!-- end of details section -->
+    	<section class="feature-detail" id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-5 wow fadeInLeft animated">
+					<h3>what our users say...</h3>
+					<h2>Super easy to use</h2>
+					<img src="/assets/img/daag.png" alt="">
+					<p>My PETSETTER sent me text and photo updates throughout the day and took care of my cat as if she were her own.</p>
+                    <ul>
+						<li><i class="fa fa-suitcase"></i>Pet Boarding</li>
+						<li><i class="fa fa-bath"></i>Grooming</li>
+						<li><i class="fa fa-home"></i>House Sitting</li>
+						<li><i class="fa fa-futbol-o"></i>Pet Day Care</li>
+  						<li><i class="fa fa-map-pin" aria-hidden="true"></i>Drop-in Visits</li>
+						<li><i class="fa fa-paw"></i>Pet Walking</li>
+					</ul>
+				</div>
+				<div class="col-xs-7 horizontal-phone wow fadeInRight animated">
+					<img class="img-feature" src="/assets/img/shutterstock_325858112.jpg" alt="phone">
+				</div>
+			</div>
+		</div>
+	</section><!-- end of features-detail section -->
+
+    <section class="footer">
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="icons">
+                            <a href=""><i class="fa fa-twitter"></i></a>
+                            <a href=""><i class="fa fa-facebook"></i></a>
+                            <a href=""><i class="fa fa-linkedin"></i></a>
+                        </div>
+                        </div>
+                </div>
+            </div>
+        </footer>
+
+
+    <!-- /.container -->
+
+
+    <!-- jQuery Version 1.11.1 -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
+
