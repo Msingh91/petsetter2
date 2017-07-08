@@ -12,7 +12,7 @@ module.exports = function(app) {
 
   app.post("/api/owners", function(req, res) {
 
-    console.log("Chirp Data:");
+    console.log("Owner Data:");
     console.log(req.body);
 
     db.owner.create({

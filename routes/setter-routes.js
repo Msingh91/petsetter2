@@ -12,7 +12,7 @@ module.exports = function(app) {
 
   app.post("/api/setters", function(req, res) {
 
-    console.log("Chirp Data:");
+    console.log("Setter Data:");
     console.log(req.body);
 
     db.setter.create({
