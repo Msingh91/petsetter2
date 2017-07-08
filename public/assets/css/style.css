@@ -155,7 +155,8 @@ li{
 
 .feature-detail{
 	margin-top: 0px;
-	background: #eee;
+	background: url(../img/cat_bg.jpg);
+	width: 100%;
 }
 
 .feature-detail ul li i.fa {
@@ -168,7 +169,7 @@ li{
 
 .feature-detail p {
     font-size: 18px;
-    color: #999999;
+    color: #404040;
     margin: 30px 0;
 	text-align: left;
 }
@@ -179,7 +180,7 @@ li{
 }
 
 .img-feature {
-	height: 450px;
+	height: 475px;
 	width:auto;
 }
 
